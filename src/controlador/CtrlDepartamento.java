@@ -13,7 +13,7 @@ import negocio.Departamentos;
  */
 public class CtrlDepartamento {
    
-    public static ArrayList<String> listar () throws ClassNotFoundException,
+    public static ArrayList<Departamentos> listar () throws ClassNotFoundException,
                                                      InstantiationException,
                                                      IllegalAccessException,
                                                      SQLException
@@ -22,4 +22,13 @@ public class CtrlDepartamento {
         Departamentos d = new Departamentos ();
         return d.listarDepartamentos();
     }//Fin método
+    
+    public static int searchDepartment (String dpt) throws ClassNotFoundException,
+                                                       InstantiationException,
+                                                       IllegalAccessException,
+                                                       SQLException
+    {
+        Departamentos d = new Departamentos ();
+        return d.seekDepartment(dpt);
+    }//Fin de método
 }//Fin de la clase 

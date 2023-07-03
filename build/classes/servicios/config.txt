@@ -1,7 +1,7 @@
 databaseclass =servicios.MS_SQLServer
 jdbc=jdbc:sqlserver://
 driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
-databasehost=LAWBELL\\SQL2019_LNNB
+databasehost=localhost
 port = 1433
 database=control_tramite_titulo
 username=sqlUser

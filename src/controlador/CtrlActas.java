@@ -20,7 +20,7 @@ public class CtrlActas {
     public static int generarNumActa (){
         //Crear instancia de la capa de negocio
         Actas act = new Actas ();
-        return act.getNumActa(); //Obtener el número de acta
+        return act.asignarNumActa(); //Obtener el número de acta
     }//Fin de método
             
 }//Fin de la clase
